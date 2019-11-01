@@ -1,0 +1,164 @@
+a.button:link, a.button:visited, a.button:active {
+    background-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgrey;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    display: inline-block;
+}
+
+a.button:hover {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: dimgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgrey;
+    border-radius: 5px;
+}
+
+a.buttonDelete:link, a.buttonDelete:visited, a.buttonDelete:active {
+    background-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgrey;
+    border-radius: 5px;
+    color: darkred;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    display: inline-block;
+}
+
+a.buttonDelete:hover {
+    color: red;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: dimgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgrey;
+    border-radius: 5px;
+}
+
+
+.navbar{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tablel{
+    vertical-align: top;
+    background-color: lightgray;
+    border-width: 1px;
+    border-color: black;
+    border-style: dotted;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 20px;
+
+}
+
+.tables{
+    vertical-align: top;
+    background-color: lightgray;
+    border-width: 1px;
+    border-color: black;
+    border-style: dotted;
+    padding: 10px;
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #888;
+    padding: 5px;
+
+}
+
+td {    
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.error{
+    border-width: 0px;
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 12px;
+    color: red;
+}
+
+td.tablerow{
+    border-width: 0px;
+    vertical-align: top;
+}
+
+td.newtable{
+    border-width: 0px;
+    vertical-align: middle;
+}
+
+h3{
+    text-align: center;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+a.navlink:active, a.navlink:hover{
+    background-color: dimgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgrey;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+a.navlink:link, a.navlink:visited{
+    border-width: 1px;
+    border-style: solid;
+    border-color: dimgrey;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+
+}
