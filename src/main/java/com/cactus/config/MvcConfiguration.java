@@ -62,7 +62,7 @@ public class MvcConfiguration implements WebMvcConfigurer
 	public DataSource getDataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("org.sqlite.JDBC");
-		dataSource.setUrl("jdbc:sqlite:H:\\JAVA\\CACTUS\\database1.db");
+		dataSource.setUrl("jdbc:sqlite:H:\\JAVA\\cactus_db\\database1.db");
 		return dataSource;
 	}
     
